@@ -17,7 +17,7 @@ const kanaEmojiMap: Record<string, string[]> = {
   "け": ["🍰", "👮", "⚔️"],
   "こ": ["🐨", "✊"],
   "さ": ["🐵", "🐟"],
-  "し": ["🦓", "🦌"],
+  "し": ["🦓"],
   "す": ["🍉", "🍣"],
   "せ": ["🪭", "🌍", "🌎", "🌏"],
   "そ": ["🍦", "🛷"],
@@ -87,7 +87,7 @@ const kanaEmojiMap: Record<string, string[]> = {
   "ょ": ["4⃣"],
   "っ": ["🌙"],
   "ゎ": ["🐊"],
-  "ゔ": []
+  "ゔ": ["🐮\"", "🐰\""]
 };
 
 const segmenter = new Intl.Segmenter("ja", { granularity: "grapheme" });
